@@ -1,0 +1,4 @@
+<h1><u>Individual Song Page</u></h1>
+<h1>SONG: <%= @song.name %></h1>
+<h2>GENRE: <%= link_to(@genre.name, genre_path(@genre)) %></h2>
+<h2>ARTIST: <%= link_to(@artist.name, artist_path(@artist)) %></h2>
